@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <link rel="stylesheet" href="test.css">
+    <title>Adele Walsh</title>
+    <header>
+        <div>
+            <a href="" target="_blank"><img class="center" src="header.png"></a>
+        </div>
+        <div class="table">
+            <ul id="header_nav">
+                <li><a class="nav" href="">Portfolio</a></li>
+                <li><a class="nav" href="">Awards</a></li>
+                <li><a class="nav" href="">About me</a></li>
+                <li><a class="nav" href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <div id="body">
+            <div id="body_text">
+                <h1>Ceramics</h1>
+                <h2>Dublin, Ireland</h2>
+            </div>
+        </div>
+        
+    </body>    
+</html>
