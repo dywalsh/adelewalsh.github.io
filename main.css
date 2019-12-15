@@ -94,9 +94,20 @@ section::after {
   margin: 50px auto;
 }
 
+.artistinfo {
+    font-size: 20px;
+}
+
 .ArtistDesc {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.studio {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 5px; 
+  font-size: 50px;
+  font-weight: 10;
 }
