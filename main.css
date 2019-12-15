@@ -39,7 +39,7 @@
   clear: both;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+@import url(/font.css);
 * {
   margin: 0;
   padding: 0;
