@@ -1,31 +1,87 @@
-<!DOCTYPE HTML>
-<html>
-    <link rel="stylesheet" href="test.css">
-    <title>Adele Walsh</title>
-    <header>
-        <div>
-            <a href="homepage.html"><img class="center" src="header.png"></a>
-        </div>
-        <div class="table">
-            <ul id="header_nav">
-                <li><a class="nav" href="homepage.html">Home</a></li>
-                <li><a class="nav" href="portfolio.html">Portfolio</a></li>
-                <li><a class="nav" href="">Awards</a></li>
-                <li><a class="nav" href="about_me.html">About me</a></li>
-                <li><a class="nav" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-    <body>
-        <div id="body">
-            <div id="body_text">
-                <h1>Ceramics</h1>
-                <h2>Dublin, Ireland <img class="resize" src="pin.png"></h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <section style="background: url(/Resources/homepage/a-bw-bkg.png) center center / cover no-repeat" id="section01" class="demo">
+    <div id="header">
+        <div id="nav">
+            <nav class="navbar navbar-expand-sm bg-transparent navbar-right">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white font-weight-bold" href="#">WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/Artist.html">ARTIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">STUDIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">EXHIBITIONS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+            <div id="headerLogo">
+                <img src="/Resources/homepage/adelewalsh-tagline-white.png" class="img-fluid">
+                <h1 id='artistType'>CERAMIC ARTIST</h1>
             </div>
         </div>
-    </body> 
-    <footer>
-        <p>Adele Walsh Ceramics.</p>
-    </footer>
+    </div>
+        <a href="#work"><span></span></a>
+    </section>
+    <div id='work'>
+        <h1 class="text-center text"><u>Work</u></h1>
+        <div class="spoonWork">
+            <div class="column">
+                <h2 class="text-center">Spoons</h2>
+                <p class="text-center">weegewgwgerge</p>
+            </div>
+            <div class="column">
+                <img src="Resources/work/shoes/shoes-1k.png" class="img-fluid" alt="Responsive image">
+            </div> 
+        </div>
+        <div class="shoeWork">
+            <div class="column">
+                <img src="Resources/work/shoes/shoes-1k.png" class="img-fluid" alt="Responsive image">
+            </div> 
+            <div class="column">
+                <h2 class="text-center">Spoons</h2>
+                <p class="text-center">weegewgwgerge</p>
+            </div>
+        </div>
+        <div class="wreathWork">
+            <div class="column">
+                <h2 class="text-center">Spoons</h2>
+                <p class="text-center">weegewgwgerge</p>
+            </div>
+            <div class="column">
+                <img src="Resources/work/shoes/shoes-1k.png" class="img-fluid" alt="Responsive image">
+            </div> 
+        </div>
+    </div>
+</body>
+    
+<script>
+$(function() {
+  $('a[href*=\\#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});    
+</script>
+    
 </html>
 
