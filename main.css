@@ -112,6 +112,17 @@ section {
 .studio {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 5px; 
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 10;
+   padding-top: 30px;
+}
+
+.exhibitionTitle {
+    margin-left: 50px;
+    font-size: 26px;
+    letter-spacing: 7px;
+}
+
+.exhibitionContent {
+    margin: 50px;
 }
