@@ -126,12 +126,12 @@ img {
    padding-top: 30px;
 }
 
-.exhibitionTitle {
-    margin-left: 50px;
-    font-size: 26px;
-    letter-spacing: 7px;
+.exhibitionDiv {
+    margin: auto; 
+    max-width: 970px;
 }
 
-.exhibitionContent {
-    margin: 50px;
+.exhibitionTitle {
+    font-size: 26px;
+    letter-spacing: 7px;
 }
