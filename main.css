@@ -27,18 +27,6 @@
     letter-spacing: 5px;  
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @import url(/font.css);
 * {
   margin: 0;
@@ -55,9 +43,6 @@ section {
 
 #section01 { background: url(/Resources/homepage/a-bw-bkg.png) center center / cover no-repeat;}
 
-#section01 a {
-  
-}
 #section01 a span {
   position: absolute;
   bottom: 50px;
@@ -72,9 +57,33 @@ section {
   box-sizing: border-box;
 }
 
-.shoeWork {
-    margin-left: 50px;
-    margin-right: 50px;
+.row{
+    max-width: 970px;
+}
+
+.WorkHeader {
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+   
+}
+
+img {
+    max-height: 500px;
+}
+
+.worksOfArt {
+    margin: auto; 
+    max-width: 970px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.workContent {
+    font-family: 'Baskerville';
+}
+
+.shoeHeader {
+    letter-spacing: 5px;
 }
 
 .artistName {
