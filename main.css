@@ -57,10 +57,6 @@ section {
   box-sizing: border-box;
 }
 
-.row{
-    max-width: 970px;
-}
-
 .WorkHeader {
     font-size: 40px;
     font-weight: lighter;
