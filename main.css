@@ -13,12 +13,27 @@
 
 @media (max-width: 767px) {
   #headerLogo {
-    margin-left: 30%;
-    margin-right:30%;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right:10%;
+    }
+    
+    #headerLogoIndex {
+        margin-left: 10%;
+        margin-top: 35%;
+        margin-bottom: 20%;
+        margin-right:10%;
     }
 }
 @media (min-width: 768px) {
     #headerLogo {
+        width: 30%;
+        max-width: 400px;
+        padding-left: 30px;
+    }
+    
+    #headerLogoIndex {
         width: 30%;
         max-width: 400px;
         padding-left: 30px;
