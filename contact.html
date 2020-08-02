@@ -52,22 +52,24 @@
         <a href="https://www.facebook.com/adele.walsh.7503" class="btn black-background white btn-space-left pr-4 pl-4 pt-1 pb-1" target="_blank">FACEBOOK</a>
     </div>
     <p class="text-center" style="font-size: 15px"><b>GET IN TOUCH WITH ADELE</b></p>
-    
-    <form class="m-5">
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input type="email" class="form-control" id="inputEmail4" placeholder="FIRST NAME*">
-        </div>
-        <div class="form-group col-md-6">
-          <input type="password" class="form-control" id="inputPassword4" placeholder="LAST NAME*">
-        </div>
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-10 col-md-10 col-lg-6">
+            <form class="m-5" action="https://formspree.io/xdowbzyn" method="POST" id="contactForm">
+              <input type="hidden" name="_subject" value="Contact request from adelewalsh.ie" />
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="NAME" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="_replyto" class="form-control" id="inputAddress" placeholder="EMAIL" required>
+              </div>
+              <textarea class="form-control" rows="7" name="message" placeholder="YOUR MESSAGE" required></textarea>
+              <button type="submit" class="btn mt-2 black-background white">SEND</button>
+            </form>
       </div>
-      <div class="form-group">
-        <input type="text" class="form-control" id="inputAddress" placeholder="EMAIL">
-      </div>
-        <textarea class="form-control" placeholder="Message"></textarea>
-      <button type="submit" class="btn mt-2 black-background white">SUBMIT</button>
-    </form>
+    </div>
+</div>
 </body> 
 </html>
 
